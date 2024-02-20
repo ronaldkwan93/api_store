@@ -9,6 +9,6 @@ These stores has items in it, emulating like a real life company accounting thei
 - instead of using the key "name", we would like to use the unique id's, so we don't need to reiterate all the names in the dictionary. 
 
 ## Learning Docker
-- Containers use kernels (controls the hardware) rather than having the whole virtual machine using more resoures
+- Containers reuses' linux kernels(controls the hardware) rather than depending on another whole virtual machine using more resources
 - This means its much quicker 
 - Docker containers are based on 'images", snapshot of source code, libraries and depenencies. 
