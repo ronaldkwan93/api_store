@@ -30,7 +30,7 @@ def create_item(name):
     item = {**item_data, "id": item_id}
     item[item_id] = item
 
-    return item, 201
+    return item,
 
 
 @app.get("/store/<string:store_id>")
